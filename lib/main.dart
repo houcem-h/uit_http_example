@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   textAlign: TextAlign.center,
                   style: const TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Colors.cyan,
+                      color: Colors.deepOrange,
                       fontSize: 20
                   ),
                 ),
@@ -109,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 size: 40,
                 color: Colors.white,
               ),
-              color: Colors.cyanAccent,
+              color: Colors.deepOrangeAccent,
             ),
             onDismissed: (direction) {
               setState(() {
